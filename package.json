@@ -1,0 +1,31 @@
+{
+  "name": "cyseck-task1",
+  "version": "1.0.0",
+  "description": "This project is a minimal full-stack web application that implements OTP (One-Time Password) based authentication. It allows users to log in using their email or phone number and verifies identity through an OTP mechanism.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shreyapatil2142/cyseck-task1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Shreyapatil2142/cyseck-task1/issues"
+  },
+  "homepage": "https://github.com/Shreyapatil2142/cyseck-task1#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.27",
+    "postcss": "^8.5.8",
+    "tailwindcss": "^3.4.19"
+  }
+}
