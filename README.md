@@ -113,26 +113,48 @@ The frontend communicates with the backend via REST APIs. The backend handles OT
 
 ## 🚀 How to Run the Project
 
-### Backend
+🛠️ Setup Instructions
+
+Clone the project
+
+```bash
+git clone https://github.com/Shreyapatil2142/cyseck-task1.git
+```
+
+Go to the project directory
+
+```bash
+cd cyseck-task1
+```
+
+Install dependencies
+
+### Backend (Terminal 1)
 
 ```bash
 npm install
 node server.js
 ```
 
-### Frontend
+### Frontend (Terminal 2)
 
 ```bash
+cd client
 npm install
 npm start
 ```
 
+### Run the Application
+
+After both servers are running, open your browser:
+
+http://localhost:3000
 ---
 
 ## 📂 Project Structure
 
 ```
-otp-auth/
+cyseck-task1/
 │── server.js
 │── package.json
 │
